@@ -1,0 +1,11 @@
+[general]
+
+[database]
+host = "localhost"
+port = 5432
+username = "enigma"
+password = "enigma1!"
+
+[environment]
+
+[boxes]
