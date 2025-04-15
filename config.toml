@@ -1,11 +1,10 @@
 [general]
-api_key = "V0puyjgwB462Is4Kky4gq8VWxV1deSCMGTzl5hGiEVt5ZpuQXLI9CUd19FG4BIWL"
 
 [database]
 host = "localhost"
 port = 5432
 username = "enigma"
-password = "enigma1!"
+database = "enigma"
 
 [environment]
 
