@@ -5,5 +5,7 @@ edition = "2024"
 
 [dependencies]
 dotenv = "0.15.0"
-postgres = "0.19.10"
+serde = { version = "1.0.219", features = ["derive"]}
+tokio = { version = "1.44.2", features = ["full"] }
+tokio-postgres = "0.7.13"
 toml = "0.8.20"

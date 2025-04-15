@@ -2,5 +2,7 @@ mod config;
 mod db;
 
 fn main() {
-    println!("Hello, world!");
+    let cfg: config::Config = config::read_config();
+
+    println!("{:?}", cfg);
 }
